@@ -146,6 +146,6 @@ contract bank {
 
 # For More info Download Blocklogy App now
 
-<a href= "https://play.google.com/store/apps/details?id=com.kmpards.blocklogy&hl=en_IN"><img width=50px height=50px src="https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F475500%252Ff018ae30-f60a-43b7-a3fd-d9acec74849e.png%252Ffull-fit-in__950x534.png?signature=T8lnjwshIlXsatf7BSwU-PhthKQ=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com" alt="Blocklogy"> </a>
+<a href= "https://play.google.com/store/apps/details?id=com.blocklogy.blocklogyapp"><img width=50px height=50px src="https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F475500%252Ff018ae30-f60a-43b7-a3fd-d9acec74849e.png%252Ffull-fit-in__950x534.png?signature=T8lnjwshIlXsatf7BSwU-PhthKQ=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com" alt="Blocklogy"> </a>
 
-<a href= "https://play.google.com/store/apps/details?id=com.kmpards.blocklogy&hl=en_IN"><img width=50px height=50px src="https://cdn.iconscout.com/icon/free/png-512/app-store-461590.png" alt="Blocklogy"> </a>
+

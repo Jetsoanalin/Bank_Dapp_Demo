@@ -110,6 +110,40 @@ Blockchain Transaction History
 You might have noticed this transaction window below the text editor. This is a complete list of all the transactions on this virtual blockchain. Remember, the Etherum blockchain is made up of bundles of records called "blocks" which are "chained together" to make up the public ledger. The basic units of all these blocks are transactions. You're seeing them listed here below. You can click the "down" arrow to see all details of the receipt.
 
 
+# Small Bank Application of deposit and withdrawal
+
+```
+pragma solidity ^0.5.10;
+import "./shahanchor.sol";
+
+contract bank {
+    ShahAnchorToken SA;
+    constructor(address _SAAddress) public {
+        SA = ShahAnchorToken(_SAAddress);
+    }
+  mapping ( address => uint256 ) public balances;
+
+  function deposit(uint256 tokens) public{
+    // add the deposited tokens into existing balance
+     balances[msg.sender] += tokens;
+    // transfer the tokens from the sender to this contract
+    SA.transferFrom(msg.sender, address(this), tokens);
+  }
+
+  function withdrawFullAmount() public{
+      SA.transfer(msg.sender, balances[msg.sender]);
+      balances[msg.sender] = 0;
+  }
+  
+  function withdrawAmount(uint256 amount) public{
+      require(balances[msg.sender] > amount);
+      SA.transfer(msg.sender, amount);
+      balances[msg.sender] -= amount;
+  }
+}
+```
+
+
 # For More info Download Blocklogy App now
 
 <a href= "https://play.google.com/store/apps/details?id=com.kmpards.blocklogy&hl=en_IN"><img width=50px height=50px src="https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F475500%252Ff018ae30-f60a-43b7-a3fd-d9acec74849e.png%252Ffull-fit-in__950x534.png?signature=T8lnjwshIlXsatf7BSwU-PhthKQ=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com" alt="Blocklogy"> </a>

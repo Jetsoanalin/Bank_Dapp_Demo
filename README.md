@@ -28,10 +28,10 @@ New Solidity File
 Let's create a new file named MyContract.sol. On the first line of this file, we'll declare the version of the solidity programming language we want to use:
 
 ```
-pragma solidity ^0.5.1;
+pragma solidity ^0.5.11;
 Now we can declare the smart contract like this:
 
-pragma solidity ^0.5.1;
+pragma solidity ^0.5.11;
 contract MyContract {
     // ...
 }
@@ -45,7 +45,7 @@ Retrieve this value
 We'll start by creating a way to store a string value in the smart contract like this. We'll do that with a variable called value. Solidity is a statically typed language, so we must first specify the data type when declaring the variable like this:
 
 ```
-pragma solidity ^0.5.1;
+pragma solidity ^0.5.11;
 contract MyContract {
     string value;
 
@@ -113,7 +113,7 @@ You might have noticed this transaction window below the text editor. This is a 
 # Small Bank Application of deposit and withdrawal
 
 ```
-pragma solidity ^0.5.10;
+pragma solidity ^0.5.11;
 import "./shahanchor.sol";
 
 contract bank {

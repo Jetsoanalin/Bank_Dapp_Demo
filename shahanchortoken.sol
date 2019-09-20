@@ -599,9 +599,6 @@ contract ERC20Pausable is ERC20, Pausable {
 }
 
 contract ShahAnchorToken is ERC20Detailed,ERC20Burnable,ERC20Capped,ERC20Pausable {
-
-event NRTManagerAdded(address NRTManager);
-
     constructor()
         public
          ERC20Detailed ("ShahAnchor", "SA", 18) ERC20Capped(9100000000000000000000000000) {

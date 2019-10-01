@@ -598,10 +598,10 @@ contract ERC20Pausable is ERC20, Pausable {
     }
 }
 
-contract ShahAnchorToken is ERC20Detailed,ERC20Burnable,ERC20Capped,ERC20Pausable {
+contract cryptoToken is ERC20Detailed,ERC20Burnable,ERC20Capped,ERC20Pausable {
     constructor()
         public
-         ERC20Detailed ("ShahAnchor", "SA", 18) ERC20Capped(9100000000000000000000000000) {
+         ERC20Detailed ("Jetso", "JT", 18) ERC20Capped(9100000000000000000000000000) {
              mint(msg.sender, 910000000000000000000000000);
         }
 

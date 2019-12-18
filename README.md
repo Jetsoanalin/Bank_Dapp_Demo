@@ -5,10 +5,10 @@
 - Implementation of a basic Smart contract in Ethereum Blockchain
 
 
-# Blocklogy EduTech
-###### Demo by Jetso Analin - Blockchain Developer
+# KubixSquare
+###### Demo by Jetso Analin - Founder
 
-<center> <img src="https://lh3.googleusercontent.com/QlQqejAQbV6b1oVX5ps2gG9QNROpAAGqnWLzTtA3iCSflBQ5uLprpOl2qdXO3WwHsUg" alt="Blocklogy"> </center>
+<center> <img src="https://ibb.co/hmYNPg6" alt="KubixSquare"> </center>
 
 
 

@@ -8,7 +8,7 @@
 # KubixSquare
 ###### Demo by Jetso Analin - Founder
 
-<center> <img src="https://ibb.co/hmYNPg6" alt="KubixSquare"> </center>
+<center> <img src="https://i.ibb.co/sVW40gf/kubixsquarelogo.png" alt="KubixSquare"> </center>
 
 
 
